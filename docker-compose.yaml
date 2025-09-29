@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: registrar-mongo:0.0.0
+    container_name: registrar-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+  
+  backend:
+    image: registrar-backend:0.0.0
+    container_name: registrar-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://registrar-mongo:27017/registrar
+
+  frontend:
+    image: registrar-frontend:0.0.0
+    container_name: registrar-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+
+
+volumes:
+  mongo-data:
+
+
+
+
+
+
+
+
