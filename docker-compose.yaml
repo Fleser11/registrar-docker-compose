@@ -10,7 +10,7 @@ services:
       - mongo-data:/data/db
   
   backend:
-    image: registrar-backend:0.0.0
+    image: registrar-backend:0.0.1
     container_name: registrar-backend
     ports:
       - "8080:8080"
@@ -20,7 +20,7 @@ services:
       - SPRING_DATA_MONGODB_URI=mongodb://registrar-mongo:27017/registrar
 
   frontend:
-    image: registrar-frontend:0.0.0
+    image: registrar-frontend:0.0.1
     container_name: registrar-frontend
     ports:
       - "4200:80"
