@@ -13,9 +13,14 @@ curl -X POST \
   http://localhost:8080/audits \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
+  -d @"./audits/SMA9.audit.json"
+
+curl -X POST \
+  http://localhost:8080/audits \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
   -d @"./audits/SCS22022.audit.json"
 
-echo "📤 Loading GenEd audit..."
 curl -X POST \
   http://localhost:8080/audits \
   -H 'accept: application/json' \

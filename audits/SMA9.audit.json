@@ -1,0 +1,75 @@
+{
+    "info": {
+        "code": "SMA92023",
+        "program": "Mathematics, Concentration: Education Preparation",
+        "totalCourses": 41
+    },
+    "subAudit": [
+        {
+            "name": "Core",
+            "description":"Must take MA1160, MA2160, MA2330, MA2710, MA3160, MA3210, MA3310, MA3450, MA3560",
+            "cardinality": "ALL",
+            "courses": [
+                "MA1160",
+                "MA2160",
+                "MA2330",
+                "MA2710",
+                "MA3160",
+                "MA3210",
+                "MA3310",
+                "MA3450",
+                "MA3560"
+
+            ]
+        },
+        {
+            "name": "BreadthRequirement",
+            "description":"Must take one course from the list: MA1600, MA2600, MA3740, CS1121, CS 1131",
+            "cardinality": "1",
+            "courses": [
+                "MA1600",
+                "MA2600",
+                "MA3740",
+                "CS1121",
+                "CS1131"
+            ]
+        },
+        {
+            "name": "LabScience",
+            "description":"Students must complete two science courses in two different disciplines (BL, CH, KIP, FW, GE, PH, SS) from the general education science course list; at least one of these must include or be taken with the accompanying laboratory. Find eligible courses on the General Education webpage",
+            "cardinality": "2",
+            "courses": [
+                "abstract_LabScience",
+                "abstract_Science"
+            ]
+        },
+        {
+            "name": "ConcentrationRequirement",
+            "description":"Must take MA1910, MA3924, MA4908, and MA4945",
+            "cardinality": "ALL",
+            "courses": [
+                "MA1910",
+                "MA3924",
+                "MA4908",
+                "MA4945"
+            ]
+        },
+        {
+            "name": "Level4000MathElectives",
+            "description":"",
+            "cardinality": "ALL",
+            "courses": [
+                "abstract_MA4000a",
+                "abstract_MA4000b"
+            ]
+        },
+        {
+            "name": "FreeElectives",
+            "description":"Any coursework is allowable, excluding co-curricular and coursework below the 1000- level.",
+            "cardinality": "14",
+            "courses": [
+                "abstract_FreeElective"
+            ]
+        }
+    ]
+}

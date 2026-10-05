@@ -6,7 +6,7 @@
     },
     "subAudit": [
         {
-            "name": "core",
+            "name": "Core",
             "description":"Must take all CS1000, CS1131 or (CS1121 and CS1122), CS1142, CS2311 or MA3210, CS2321, CS3000, CS3141, CS3311, CS3331, CS3411, CS3421, CS3425, CS4121, CS4321, HU3120, MA1160 or MA1161, MA2330, MA2720 or MA3710",
             "cardinality": "ALL",
             "courses": [
@@ -54,7 +54,7 @@
         {
             "name": "LabScience",
             "description":"Students must complete two science courses in two different disciplines (BL, CH, KIP, FW, GE, PH, SS) from the general education science course list; at least one of these must include or be taken with the accompanying laboratory. Find eligible courses on the General Education webpage",
-            "cardinality": "2",
+            "cardinality": "ALL",
             "courses": [
                 "abstract_LabScience",
                 "abstract_Science"
@@ -62,7 +62,7 @@
         },
         {
             "name": "ConcentrationRequirement",
-            "description":"CS 4000 - level, CS 4000 - level may be satisfied with, CS4099, MA 2160, MA 3000 - level",
+            "description":"Need two CS4000 level courses; one may be satisifed wtih CS4099. Need MA2160 and a MA3000 level course.",
             "cardinality": "ALL",
             "courses": [
                 "abstract_CS4000a",

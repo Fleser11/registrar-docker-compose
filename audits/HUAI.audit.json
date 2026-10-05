@@ -1,0 +1,102 @@
+{
+    "info": {
+        "code": "HUAI2026",
+        "program": "Essential Education minor in AI Ethics",
+        "isGenEd": true
+    },
+    "subAudit": [
+        {
+            "name": "Technology_and_Communication",
+            "description":"Must have one of: HU3120, HU3845, HU3130, HU3693, SS3535, SS4040, SS4550",
+            "cardinality": "ALL",
+            "courses": [
+                "HU3120",
+                "HU3845",
+                "HU3130",
+                "HU3693",
+                "SS3535",
+                "SS4040",
+                "SS4550"
+            ]
+        },
+        {
+            "name": "Ethics_in_Social_Contexts",
+            "description":"Select one of the following: HU3135, HU3710, HU3800, HU3850, HU3855, HU3781, SS3640",
+            "cardinality": "1",
+            "courses": [
+                "HU3135", 
+                "HU3710",
+                "HU3800", 
+                "HU3850",
+                "HU3855", 
+                "HU3781",
+                "SS3640"
+            ]
+        },
+        {
+            "name": "Social_Dimension_of_Technology",
+            "description":"Select one of the following: CS3000, PSY4750, SS3535, SS3580, SS3640, SS3801, SS3815",
+            "cardinality": "1",
+            "courses": [
+                "CS3000", 
+                "PSY4750",
+                "SS3535", 
+                "SS3580",
+                "SS3640", 
+                "SS3801",
+                "SS3815"
+            ]
+        },
+        {
+            "name": "Ethics_and_Technology",
+            "description":"Select one of the following: HU3701, HU3704, HU3705" ,
+            "cardinality": "1",
+            "courses": [
+                "HU3701",
+                "HU3704",
+                "HU3705"
+            ]
+        },
+        {
+            "name": "Supporting_Courses",
+            "description":"Select one of the following: CS3000, PSY4750, SS3535, SS3580, SS3640, SS3801, SS3815, CS4001, ACC4000, SAT1700, SAT4114, MIS4000",
+            "cardinality": "1",
+            "courses": [
+                "CS3000 ",
+                "PSY4750",
+                "SS3535 ",
+                "SS3580 ",
+                "SS3640 ",
+                "SS3801 ",
+                "SS3815 ",
+                "CS4001 ",
+                "ACC4000",
+                "SAT1700",
+                "SAT4114",
+                "MIS4000"
+            ]
+        },
+        {
+            "super_group_name":"In-Depth_Experience",
+            "subgroups":[
+            {
+                "name": "Essential_Education_Experience",
+                "description":"Select one of the following: HU3810, PSY3511",
+                "cardinality": "1",
+                "courses": [
+                    "HU3810",
+                    "PSY3511"
+                ]
+            },
+            {
+                "name": "Upper_Level_Shape_Course_Portfolio",
+                "description":"Take UN3023",
+                "cardinality": "ALL",
+                "courses": [
+                    "UN3023"
+                ]
+            }]
+        }
+    
+    ]
+}

@@ -6,8 +6,8 @@
     },
     "subAudit": [
         {
-            "name": "core",
-            "description":"",
+            "name": "GenEdCore",
+            "description":"All students must take UN1015, UN1025 a Critical Creative Thinking course and a Social Ethical Responsibility course",
             "cardinality": "ALL",
             "courses": [
                 "UN1015",
@@ -18,7 +18,7 @@
         },
         {
             "name": "HASS",
-            "description":"12 credits, six of the 12 credits must be at the 3000- or 4000- level",
+            "description":"All students need 12 credits of HASS courses, six of the 12 credits must be at the 3000- or 4000- level. One course should bee in Communication and Composition, one in Humanities and Fine arts and one in Social and Behavioral Sciences",
             "cardinality": "ALL",
             "courses": [
                 "abstract_CommComp",
