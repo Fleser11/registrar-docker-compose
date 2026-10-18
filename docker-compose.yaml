@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mongodb:
-    image: registrar-mongo:0.0.0
+    image: registrar-mongo:0.1.0
     container_name: registrar-mongo
     ports:
       - "27017:27017"

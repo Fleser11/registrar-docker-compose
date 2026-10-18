@@ -9,23 +9,32 @@ docker-compose up -d
 
 sleep 15
 
-curl -X POST \
-  http://localhost:8080/audits \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d @"./audits/SMA9.audit.json"
+# curl -X POST \
+#   http://localhost:8080/audits \
+#   -H 'accept: application/json' \
+#   -H 'Content-Type: application/json' \
+#   -d @"./audits/SMA9.audit.json"
+
+# curl -X POST \
+#   http://localhost:8080/audits \
+#   -H 'accept: application/json' \
+#   -H 'Content-Type: application/json' \
+#   -d @"./audits/SCS22022.audit.json"
+
+# curl -X POST \
+#   http://localhost:8080/audits \
+#   -H 'accept: application/json' \
+#   -H 'Content-Type: application/json' \
+#   -d @"./audits/GenEd.audit.json"
+
+# curl -X POST \
+#   http://localhost:8080/audits \
+#   -H 'accept: application/json' \
+#   -H 'Content-Type: application/json' \
+#   -d @"./audits/EssentialEd.audit.json"
 
 curl -X POST \
   http://localhost:8080/audits \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
-  -d @"./audits/SCS22022.audit.json"
-
-curl -X POST \
-  http://localhost:8080/audits \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d @"./audits/GenEd.audit.json"
-
-
-
+  -d @"./audits/SCS22026.audit.json"

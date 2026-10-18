@@ -1,0 +1,116 @@
+{
+    "info": {
+        "code": "SCS22026",
+        "program": "Computer Science, Concentration: Computer Science",
+        "totalCourses": 41
+    },
+    "subAudit": [
+        {
+            "name": "Core",
+            "description":"Must take all CS1000, CS1131 or (CS1121 and CS1122), CS1142, CS2311 or MA3210, CS2321, CS3000, CS3141, CS3311, CS3331, CS3411, CS3421, CS3425, CS4121, CS4321, HU3120, MA1160 or MA1161, MA2330, MA2720 or MA3710",
+            "cardinality": "ALL",
+            "courses": [
+                "CS1000",
+                "CS1131 or (CS1121 and CS1122)",
+                "CS1142",
+                "CS2311 or MA3210",
+                "CS2321",
+                "CS3000",
+                "CS3141",
+                "CS3311",
+                "CS3331",
+                "CS3411",
+                "CS3421",
+                "CS3425",
+                "CS4121",
+                "CS4321",
+                "HU3120",
+                "MA1160 or MA1161",
+                "MA2330",
+                "MA2720 or MA3710 or MA3720"
+            ]
+        },
+        {
+            "name": "Concentration_Requirement",
+            "description":"Need two CS4000 level courses; one may be satisifed wtih CS4099. And a MA3XXX level course.",
+            "cardinality": "ALL",
+            "courses": [
+                "abstract_CS4XXXa",
+                "abstract_CS4YYYb",
+                "abstract_MA3XXX"
+            ]
+        },
+        {
+            "name": "Tech_Electives",
+            "description":"See academic advisor for a list of approved technical electives to choose from. Note: Technical electives plus the two 4000 - level CS courses must total 15 credits.",
+            "cardinality": "4",
+            "courses": [
+                "abstract_Tech_Elective"
+            ]
+        },
+        {
+            "name": "Free_Electives",
+            "description":"Any coursework is allowable, excluding co-curricular and coursework below the 1000- level.",
+            "cardinality": "4",
+            "courses": [
+                "abstract_Free_Elective"
+            ]
+        },
+        {
+            "name":"Essential_Education_Natural_and_Physical_Science",
+            "description":"First year natural and physical sciences essential education course.",
+            "cardinality":"1",
+            "courses": [
+                "abstract_Natural_and_Physical_Science"
+            ]
+        },
+        {
+            "name":"Essential_Education_Foundations_in_the_Human_World",
+            "description":"Must take one Essential Education Foundations in the Human World",
+            "cardinality":"1",
+            "courses":[
+                "abstract_Foundations_in_the_Human_World"
+            ]
+        },
+        {
+            "name":"Essential_Education_Intercultural_Competency",
+            "description":"Must take one Essential Education Intercultural Competency Course",
+            "cardinality":"1",
+            "courses":[
+                "abstract_Intercultural_Competency"
+            ]
+        },
+        {
+            "name":"Essential_Education_Arts_and_Culture",
+            "description":"Must take one Essential Education Arts and Culture course",
+            "cardinality":"1",
+            "courses":[
+                "abstract_Arts_and_Culture"
+            ]
+        },
+        {
+            "name":"Essential_Education_SHAPE",
+            "description":"Must take one Essential Education SHAPE course",
+            "cardinality":"1",
+            "courses":[
+                "abstract_SHAPE"
+            ]
+        },
+        {
+            "name":"Essential_Education_STEM",
+            "description":"Must take one Essential Education STEM course",
+            "cardinality":"1",
+            "courses":[
+                "abstract_STEM"
+            ]
+        },
+        {
+            "name":"Essential_Education_Experience",
+            "description":"Must take one Essential Education Experience course",
+            "cardinality":"1",
+            "courses":[
+                "abstract_Experience"
+            ]
+        }
+    ]
+}
