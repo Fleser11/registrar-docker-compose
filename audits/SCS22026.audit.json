@@ -11,9 +11,10 @@
             "cardinality": "ALL",
             "courses": [
                 "CS1000",
+                "(CS1131 iff not CS1121) and (CS1121 iff CS1122)",
                 "CS1131 or (CS1121 and CS1122)",
                 "CS1142",
-                "CS2311 or MA3210",
+                "CS2311 iff not MA3210",
                 "CS2321",
                 "CS3000",
                 "CS3141",
@@ -25,9 +26,9 @@
                 "CS4121",
                 "CS4321",
                 "HU3120",
-                "MA1160 or MA1161",
+                "MA1160 iff not MA1161",
                 "MA2330",
-                "MA2720 or MA3710 or MA3720"
+                "MA2720 iff not MA3710 iff not MA3720"
             ]
         },
         {
@@ -66,10 +67,19 @@
         },
         {
             "name":"Essential_Education_Foundations_in_the_Human_World",
-            "description":"Must take one Essential Education Foundations in the Human World",
+            "description":"Must take one First Year Essential Education Foundations in the Human World",
             "cardinality":"1",
             "courses":[
                 "abstract_Foundations_in_the_Human_World"
+            ]
+        },
+        {
+            "name":"Essential_Education_Composition",
+            "description":"Must take one Essential Education STEM course",
+            "cardinality":"1",
+            "courses":[
+                "UN1015",
+                "UN1014"
             ]
         },
         {
@@ -94,14 +104,6 @@
             "cardinality":"1",
             "courses":[
                 "abstract_SHAPE"
-            ]
-        },
-        {
-            "name":"Essential_Education_STEM",
-            "description":"Must take one Essential Education STEM course",
-            "cardinality":"1",
-            "courses":[
-                "abstract_STEM"
             ]
         },
         {
